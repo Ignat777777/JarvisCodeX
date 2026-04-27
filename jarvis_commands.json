@@ -1,0 +1,3201 @@
+{
+  "version": 1,
+  "commands": {
+    "Jarvis": [],
+    "Jarvis/Открытие сайтов": [
+      {
+        "id": "126",
+        "name": "Яндекс",
+        "location": "Jarvis/Открытие сайтов",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvisJarvis Sound Pack от Jarvis Desktop\\Всегда к вашим услугам сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "launch_openurl",
+            "name": "Launch.OpenURL",
+            "value": "https://dzen.ru/",
+            "description": ""
+          }
+        ],
+        "phrase": "яндекс, браузер, дзен",
+        "optional_phrase": "открой, запусти, зайди в, открыть, запустить, зайти в, вруби, врубить, мне нужен, будь добр открой, выведи"
+      },
+      {
+        "id": "115",
+        "name": "Ютуб",
+        "location": "Jarvis/Открытие сайтов",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "launch_openurl",
+            "name": "Launch.OpenURL",
+            "value": "https://www.youtube.com/",
+            "description": ""
+          }
+        ],
+        "phrase": "ютуб, ютубчик. ютюб",
+        "optional_phrase": "открой, запусти, зайди в, открыть, запустить, зайти в, вруби, врубить, мне нужен, будь добр открой, выведи"
+      },
+      {
+        "id": "150",
+        "name": "Вк",
+        "location": "Jarvis/Открытие сайтов",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "launch_openurl",
+            "name": "Launch.OpenURL",
+            "value": "https://vk.com/feed",
+            "description": ""
+          }
+        ],
+        "phrase": "вэка, вконтакте",
+        "optional_phrase": "открой, запусти, зайди в, открыть, запустить, зайти в, вруби, врубить, мне нужен, будь добр открой, выведи"
+      },
+      {
+        "id": "151",
+        "name": "Переводчик",
+        "location": "Jarvis/Открытие сайтов",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Загружаю сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "launch_openurl",
+            "name": "Launch.OpenURL",
+            "value": "https://translate.yandex.ru/?from=tableau_yabro",
+            "description": ""
+          }
+        ],
+        "phrase": "переводчик, переведи, мне нужен перевод, английский",
+        "optional_phrase": "открой, запусти, зайди в, открыть, запустить, зайти в, вруби, врубить, мне нужен, будь добр открой, выведи"
+      },
+      {
+        "id": "188",
+        "name": "Гугл",
+        "location": "Jarvis/Открытие сайтов",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "launch_openurl",
+            "name": "Launch.OpenURL",
+            "value": "https://www.google.com/?hl=ru",
+            "description": ""
+          }
+        ],
+        "phrase": "гугл, хром, гугл хром",
+        "optional_phrase": "открой, запусти, зайди в, открыть, запустить, зайти в, вруби, врубить, мне нужен, будь добр открой, выведи"
+      },
+      {
+        "id": "",
+        "name": "поехали",
+        "location": "Jarvis/Открытие сайтов",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "launch_url",
+            "name": "Открыть ссылку",
+            "value": "https://youtu.be/ZLpj82wwkPo?si=dZpUy8fWPEkB2JWU",
+            "description": "Открытие URL."
+          },
+          {
+            "id": "keyboard_hotkey",
+            "name": "Нажать сочетание клавиш",
+            "value": "F | 10s",
+            "description": "Нажать клавишу/сочетание. Задержка: «Ctrl+Shift+S | 1500ms»."
+          },
+          {
+            "id": "system_set_brightness",
+            "name": "Установить яркость",
+            "value": "100",
+            "description": "Установить яркость экрана в процентах."
+          },
+          {
+            "id": "voice_say",
+            "name": "Озвучить текст",
+            "value": "приятного просмотра",
+            "description": "Озвучивает указанный текст."
+          },
+          {
+            "id": "sound_setvol",
+            "name": "Установить громкость",
+            "value": "75",
+            "description": "Установить громкость на значение."
+          }
+        ],
+        "phrase": "поехали",
+        "optional_phrase": ""
+      }
+    ],
+    "Jarvis/Управление системой": [
+      {
+        "id": "125",
+        "name": "Закрыть окно",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "window_close",
+            "name": "Window.Close",
+            "value": "",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Как пожелаете .wav",
+            "description": ""
+          }
+        ],
+        "phrase": "закрой окно, закрой программу",
+        "optional_phrase": ""
+      },
+      {
+        "id": "164",
+        "name": "На весь экран",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "window_maximize",
+            "name": "Window.Maximize",
+            "value": "",
+            "description": ""
+          }
+        ],
+        "phrase": "на весь экран, разверни на максимум",
+        "optional_phrase": ""
+      },
+      {
+        "id": "144",
+        "name": "Норм окно",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "window_normalize",
+            "name": "Window.Normalize",
+            "value": "",
+            "description": ""
+          }
+        ],
+        "phrase": "нормализуй окно",
+        "optional_phrase": ""
+      },
+      {
+        "id": "145",
+        "name": "Сверни окно",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "window_minimize",
+            "name": "Window.Minimize",
+            "value": "",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          }
+        ],
+        "phrase": "окно, окна",
+        "optional_phrase": "сверни, разверни, убери, убрать, вруби, врубить, вынеси, выведи, свернуть, развернуть"
+      },
+      {
+        "id": "178",
+        "name": "Вставить",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{CONTROL}({V})",
+            "description": ""
+          }
+        ],
+        "phrase": "вставить, вставь",
+        "optional_phrase": ""
+      },
+      {
+        "id": "204",
+        "name": "Скопировать",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({C})",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр(второй).wav",
+            "description": ""
+          }
+        ],
+        "phrase": "скопировать, скопируй, скопируй текст",
+        "optional_phrase": ""
+      },
+      {
+        "id": "131",
+        "name": "Отмена действия",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Всегда к вашим услугам сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{CONTROL}({Z})",
+            "description": ""
+          }
+        ],
+        "phrase": "отмена действия, отмени действия, отмени",
+        "optional_phrase": ""
+      },
+      {
+        "id": "132",
+        "name": "Другое окно",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{ALT}({TAB})",
+            "description": ""
+          }
+        ],
+        "phrase": "другое окно, смени окно, смена окна, сменить окно",
+        "optional_phrase": ""
+      },
+      {
+        "id": "134",
+        "name": "Смена имени",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{F2}",
+            "description": ""
+          }
+        ],
+        "phrase": "смени имя выбранного элемента",
+        "optional_phrase": ""
+      },
+      {
+        "id": "135",
+        "name": "Найди элемент",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Всегда к вашим услугам сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{F3}",
+            "description": ""
+          }
+        ],
+        "phrase": "найди элемент",
+        "optional_phrase": ""
+      },
+      {
+        "id": "136",
+        "name": "Обнови страницу",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{F5}",
+            "description": ""
+          }
+        ],
+        "phrase": "обнови страницу, обновить",
+        "optional_phrase": ""
+      },
+      {
+        "id": "155",
+        "name": "Назад",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{ALT}({LEFT})",
+            "description": ""
+          }
+        ],
+        "phrase": "назад, вернись назад",
+        "optional_phrase": ""
+      },
+      {
+        "id": "156",
+        "name": "Вперёд",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{ALT}({RIGHT})",
+            "description": ""
+          }
+        ],
+        "phrase": "вперёд, вернись вперёд",
+        "optional_phrase": ""
+      },
+      {
+        "id": "179",
+        "name": "Арес страницы",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Всегда к вашим услугам сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{ALT}({D})",
+            "description": ""
+          }
+        ],
+        "phrase": "открой адрес страницы, удали переписку, удали чат",
+        "optional_phrase": ""
+      },
+      {
+        "id": "169",
+        "name": "Повтори окно",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{CONTROL}({N})",
+            "description": ""
+          }
+        ],
+        "phrase": "повтори окно, дублируй окно, повторить окно, дублировать окно",
+        "optional_phrase": ""
+      },
+      {
+        "id": "161",
+        "name": "Поиск по системе",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Всегда к вашим услугам сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LWIN}({S})",
+            "description": ""
+          }
+        ],
+        "phrase": "поиск в системе",
+        "optional_phrase": ""
+      },
+      {
+        "id": "149",
+        "name": "Открой параметры",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Как пожелаете .wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LWIN}({I})",
+            "description": ""
+          }
+        ],
+        "phrase": "открой параметры, открыть параметры",
+        "optional_phrase": ""
+      },
+      {
+        "id": "166",
+        "name": "Удали",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{DELETE}",
+            "description": ""
+          }
+        ],
+        "phrase": "удали, удали текст, сотри",
+        "optional_phrase": ""
+      },
+      {
+        "id": "167",
+        "name": "Энтэр",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{ENTER}",
+            "description": ""
+          }
+        ],
+        "phrase": "энтэр, отправить, поиск, отправь, найди",
+        "optional_phrase": ""
+      },
+      {
+        "id": "152",
+        "name": "Смени язык",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Запрос выполнен сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{SHIFT}({ALT})",
+            "description": ""
+          }
+        ],
+        "phrase": "смени язык, смени раскладку, английский, русский, смена языка, сменить язык, сменить раскладку",
+        "optional_phrase": ""
+      },
+      {
+        "id": "180",
+        "name": "Клик",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "mouse_leftclick",
+            "name": "Mouse.LeftClick",
+            "value": "",
+            "description": ""
+          }
+        ],
+        "phrase": "кликни, нажми, кликнуть, нажать",
+        "optional_phrase": ""
+      },
+      {
+        "id": "154",
+        "name": "Управление звуком",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_setvol",
+            "name": "Sound.SetVol",
+            "value": "{1}",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          }
+        ],
+        "phrase": "громкость на, звук на, прикрути на, убавь на, добавь на, прикрутить на, убавить на, добавить на",
+        "optional_phrase": ""
+      },
+      {
+        "id": "174",
+        "name": "Выключи монитор",
+        "location": "Jarvis/Управление системой",
+        "confirm": true,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "system_monitor_off",
+            "name": "System.Monitor.Off",
+            "value": "",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Всегда к вашим услугам сэр.wav",
+            "description": ""
+          }
+        ],
+        "phrase": "заблокируй монитор, блокировка монитора, заблокировать монитор",
+        "optional_phrase": ""
+      },
+      {
+        "id": "194",
+        "name": "Спящий режим",
+        "location": "Jarvis/Управление системой",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Отключаю питание, начинаю диагностику системы.wav",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "3000",
+            "description": ""
+          },
+          {
+            "id": "system_sleep",
+            "name": "System.Sleep",
+            "value": "",
+            "description": ""
+          }
+        ],
+        "phrase": "спящий режим, режим сна,",
+        "optional_phrase": "поставь в, перейди в"
+      }
+    ],
+    "Jarvis/Протокололы": [
+      {
+        "id": "196",
+        "name": "Я один дома",
+        "location": "Jarvis/Протокололы",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Джарвис - приветствие.wav",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "7500",
+            "description": ""
+          },
+          {
+            "id": "launch_openurl",
+            "name": "Launch.OpenURL",
+            "value": "https://www.youtube.com/watch?v=jYmeyW7oS1M",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "3000",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{F}",
+            "description": ""
+          }
+        ],
+        "phrase": "я один дома, пора бы отдохнуть, протокол три",
+        "optional_phrase": ""
+      }
+    ],
+    "Jarvis/Общение": [
+      {
+        "id": "216",
+        "name": "доброе утро",
+        "location": "Jarvis/Общение",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Доброе утро.wav",
+            "description": ""
+          }
+        ],
+        "phrase": "доброе утро, я проснулся",
+        "optional_phrase": ""
+      }
+    ],
+    "Jarvis/Управление Microsoft Word": [
+      {
+        "id": "256",
+        "name": "Настройка шрифта",
+        "location": "Jarvis/Управление Microsoft Word",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Загружаю сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL+LSHIFT}({F})",
+            "description": ""
+          }
+        ],
+        "phrase": "настройку шрифта",
+        "optional_phrase": "выбери, найди, поставь, открой, сделай, открой, выбрать, поставить, открыть, создай, создать, измени, изменить, мне нужен, мне нужна"
+      },
+      {
+        "id": "237",
+        "name": "Окно печати",
+        "location": "Jarvis/Управление Microsoft Word",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Загружаю сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({P})",
+            "description": ""
+          }
+        ],
+        "phrase": "окно печати",
+        "optional_phrase": "выбери, найди, поставь, открой, сделай, открой, выбрать, поставить, открыть, создай, создать, измени, изменить, мне нужен, мне нужна"
+      },
+      {
+        "id": "222",
+        "name": "Найди и замени",
+        "location": "Jarvis/Управление Microsoft Word",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({H})",
+            "description": ""
+          }
+        ],
+        "phrase": "найди и замени, найди и замени текст",
+        "optional_phrase": ""
+      },
+      {
+        "id": "271",
+        "name": "Вкладка вставка",
+        "location": "Jarvis/Управление Microsoft Word",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({C})",
+            "description": ""
+          }
+        ],
+        "phrase": "во вкладку вставка, вкладку вставка, в вставку",
+        "optional_phrase": "перейди, открой, открыть, зайди, зайти, перейти"
+      },
+      {
+        "id": "348",
+        "name": "Вкладка дизайн",
+        "location": "Jarvis/Управление Microsoft Word",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({L})",
+            "description": ""
+          }
+        ],
+        "phrase": "во вкладку дизайн, вкладку дизайн, в дизайн",
+        "optional_phrase": "перейди, открой, открыть, зайди, зайти, перейти"
+      },
+      {
+        "id": "293",
+        "name": "Вкладка разметка страницы",
+        "location": "Jarvis/Управление Microsoft Word",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({P})",
+            "description": ""
+          }
+        ],
+        "phrase": "во вкладку разметка страницы, вкладку разметка страницы, в разметку страницы",
+        "optional_phrase": "перейди, открой, открыть, зайди, зайти, перейти"
+      },
+      {
+        "id": "341",
+        "name": "Поля",
+        "location": "Jarvis/Управление Microsoft Word",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({K})",
+            "description": ""
+          }
+        ],
+        "phrase": "поля",
+        "optional_phrase": "нажми на, выбери, выбрать, нажать на"
+      },
+      {
+        "id": "244",
+        "name": "Открой поиск в документе",
+        "location": "Jarvis/Управление Microsoft Word",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Всегда к вашим услугам сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({F})",
+            "description": ""
+          }
+        ],
+        "phrase": "Открой поиск в документе",
+        "optional_phrase": ""
+      },
+      {
+        "id": "357",
+        "name": "Перемещение курсора влево",
+        "location": "Jarvis/Управление Microsoft Word",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LEFT}",
+            "description": ""
+          }
+        ],
+        "phrase": "перемести влево, переместить влево, переведи влево",
+        "optional_phrase": ""
+      },
+      {
+        "id": "295",
+        "name": "Перемещение курсора вправо",
+        "location": "Jarvis/Управление Microsoft Word",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{RIGHT}",
+            "description": ""
+          }
+        ],
+        "phrase": "перемести вправо, переместить вправо, переведи вправо",
+        "optional_phrase": ""
+      },
+      {
+        "id": "291",
+        "name": "Перемещение курсора вниз",
+        "location": "Jarvis/Управление Microsoft Word",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{DOWN}",
+            "description": ""
+          }
+        ],
+        "phrase": "перемести вниз, переместить, вереведи вниз",
+        "optional_phrase": ""
+      },
+      {
+        "id": "297",
+        "name": "Перемещение курсора вверх",
+        "location": "Jarvis/Управление Microsoft Word",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{UP}",
+            "description": ""
+          }
+        ],
+        "phrase": "перемести вверх, преместить вверх, перейди вверх",
+        "optional_phrase": ""
+      },
+      {
+        "id": "310",
+        "name": "В начало строки",
+        "location": "Jarvis/Управление Microsoft Word",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{HOME}",
+            "description": ""
+          }
+        ],
+        "phrase": "перемести в начало строки, переместить  в начало строки, перейди  в начало строки, вернись  в начало строки, открой начало строки, в начало строки",
+        "optional_phrase": ""
+      },
+      {
+        "id": "350",
+        "name": "В конец строки",
+        "location": "Jarvis/Управление Microsoft Word",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{END}",
+            "description": ""
+          }
+        ],
+        "phrase": "перемести в конец строки, переместить в конец строки, перейди в конец строки,  в конец строки",
+        "optional_phrase": ""
+      },
+      {
+        "id": "361",
+        "name": "В начало документа",
+        "location": "Jarvis/Управление Microsoft Word",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Всегда к вашим услугам сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({HOME})",
+            "description": ""
+          }
+        ],
+        "phrase": "в начало документа, в начале документа",
+        "optional_phrase": "переместить, перейди, перейти, вернись, вернуть, открыть, открой, перейди"
+      },
+      {
+        "id": "349",
+        "name": "В конец документа",
+        "location": "Jarvis/Управление Microsoft Word",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Всегда к вашим услугам сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({END})",
+            "description": ""
+          }
+        ],
+        "phrase": "в конец документа, в конце документа",
+        "optional_phrase": "переместить, перейди, перейти, вернись, вернуть, открыть, открой, перейди"
+      },
+      {
+        "id": "356",
+        "name": "Сохранить как",
+        "location": "Jarvis/Управление Microsoft Word",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Сохранить его в центральной базе данных Stark Industries.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{F12}",
+            "description": ""
+          }
+        ],
+        "phrase": "сохрани документ как",
+        "optional_phrase": ""
+      }
+    ],
+    "Jarvis/PowerPoint": [
+      {
+        "id": "238",
+        "name": "Презентация в новом окне",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Вы создали новый элемент.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{CONTROL}({N})",
+            "description": ""
+          }
+        ],
+        "phrase": "новый проект, новую презентацию",
+        "optional_phrase": "выбери, найди, поставь, открой, сделай, открой, выбрать, поставить, открыть, создай, создать, измени, изменить, мне нужен, мне нужна"
+      },
+      {
+        "id": "236",
+        "name": "Новый слайд",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({M})",
+            "description": ""
+          }
+        ],
+        "phrase": "слайд, новый слайд, еще один слайд",
+        "optional_phrase": "выбери, найди, поставь, открой, сделай, открой, выбрать, поставить, открыть, создай, создать, измени, изменить, мне нужен, мне нужна"
+      },
+      {
+        "id": "312",
+        "name": "Удалить слайд",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Запрос выполнен сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({Z})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "1000",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LSHIFT}({E})",
+            "description": ""
+          }
+        ],
+        "phrase": "удали слайд, удали лист, удалить слайд, удалить лист",
+        "optional_phrase": ""
+      },
+      {
+        "id": "247",
+        "name": "Дублировать объект",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({D})",
+            "description": ""
+          }
+        ],
+        "phrase": "продублируй объект, повтори объект, продублируй",
+        "optional_phrase": ""
+      },
+      {
+        "id": "239",
+        "name": "Группировать выделенные объекты",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({G})",
+            "description": ""
+          }
+        ],
+        "phrase": "группировать, сгруппируй объекты, соедини",
+        "optional_phrase": ""
+      },
+      {
+        "id": "249",
+        "name": "Разгрупировать выделенные объекты",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\К вашим услугам сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LSHIFT+LCONTROL}({G})",
+            "description": ""
+          }
+        ],
+        "phrase": "Разгруппируй, разгруппировать, раздели",
+        "optional_phrase": ""
+      },
+      {
+        "id": "243",
+        "name": "Копировать форматирование",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL+LSHIFT}({C})",
+            "description": ""
+          }
+        ],
+        "phrase": "копируй формат, скопируй формат",
+        "optional_phrase": ""
+      },
+      {
+        "id": "246",
+        "name": "Применить форматирование",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Запрос выполнен сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL+LSHIFT}({V})",
+            "description": ""
+          }
+        ],
+        "phrase": "примени формат, вставь формат,",
+        "optional_phrase": ""
+      },
+      {
+        "id": "254",
+        "name": "Гиперссылка",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Загружаю сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({K})",
+            "description": ""
+          }
+        ],
+        "phrase": "ссылка, ссылку",
+        "optional_phrase": "нужна, мне нужна, выбери, найди, поставь, открой, сделай, открой, выбрать, поставить, открыть, создай, создать, измени, изменить"
+      },
+      {
+        "id": "263",
+        "name": "Повтор последнего действия",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр(второй).wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({Y})",
+            "description": ""
+          }
+        ],
+        "phrase": "повтори действие, повтори последнее действие",
+        "optional_phrase": ""
+      },
+      {
+        "id": "260",
+        "name": "Слайд шоу",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Загружаю сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({P})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "1000",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LSHIFT}({X})",
+            "description": ""
+          }
+        ],
+        "phrase": "презентацию, проект, слайдов",
+        "optional_phrase": "запусти, покажи, выведи на экран, воспроизведи"
+      },
+      {
+        "id": "336",
+        "name": "Настройка слайд шоу",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр(второй).wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({P})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{F}",
+            "description": ""
+          }
+        ],
+        "phrase": "настройки слайд шоу, настройки показа слайдов, настройки презентации",
+        "optional_phrase": ""
+      },
+      {
+        "id": "325",
+        "name": "Следующий слайд(в режиме слайд шоу)",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр(второй).wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LSHIFT}({N})",
+            "description": ""
+          }
+        ],
+        "phrase": "смени слайд, смени лист, смени страница, смени страницу, дальше, далее, вперёд, сменить слайд, сменить лист, сменить страницу",
+        "optional_phrase": ""
+      },
+      {
+        "id": "290",
+        "name": "Предыдущий слайд(в режиме слайд шоу)",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LSHIFT}({P})",
+            "description": ""
+          }
+        ],
+        "phrase": "верни слайд, вернись обратно, назад, обратно, верни назад, вернись назад, отмотай назад",
+        "optional_phrase": ""
+      },
+      {
+        "id": "273",
+        "name": "Черный экран(скрыть на время) (в режиме слайд шоу)",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\К вашим услугам сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LSHIFT}({B})",
+            "description": ""
+          }
+        ],
+        "phrase": "черный экран, черная заставка, черная пауза",
+        "optional_phrase": ""
+      },
+      {
+        "id": "309",
+        "name": "Белый экран(скрыть на время) (в режиме слайд шоу)",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Запрос выполнен сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LSHIFT}({W})",
+            "description": ""
+          }
+        ],
+        "phrase": "белый экран, белая заставка, белая пауза",
+        "optional_phrase": ""
+      },
+      {
+        "id": "292",
+        "name": "Карандаш(в режиме слайд шоу)",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\К вашим услугам сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({P})",
+            "description": ""
+          }
+        ],
+        "phrase": "карандаш",
+        "optional_phrase": "активируй, включи, дай мне, мне нужен, активировать, включить, отключить, выключи, отключи, выключить, убрать, убери"
+      },
+      {
+        "id": "311",
+        "name": "Ластик(в режиме слайд шоу)",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({E})",
+            "description": ""
+          }
+        ],
+        "phrase": "ластик",
+        "optional_phrase": "активируй, включи, дай мне, мне нужен, активировать, включить, отключить, выключи, отключи, выключить, убрать, убери"
+      },
+      {
+        "id": "257",
+        "name": "Сохранить презентацию как",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({A})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "1000",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LSHIFT}({R})",
+            "description": ""
+          }
+        ],
+        "phrase": "Сохрани презентацию как",
+        "optional_phrase": ""
+      },
+      {
+        "id": "261",
+        "name": "Полужирный",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Как пожелаете.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({B})",
+            "description": ""
+          }
+        ],
+        "phrase": "жирным, жирный, на жирный",
+        "optional_phrase": "выбери, сделай, выбрать, поставить, измени, изменить, сделать"
+      },
+      {
+        "id": "248",
+        "name": "Курсив",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({I})",
+            "description": ""
+          }
+        ],
+        "phrase": "курсив, курсивом, на курсив",
+        "optional_phrase": "выбери, сделай, выбрать, поставить, измени, изменить, сделать"
+      },
+      {
+        "id": "296",
+        "name": "Подчеркнутый",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр(второй).wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({U})",
+            "description": ""
+          }
+        ],
+        "phrase": "подчеркнутый, подчеркнутым, зачеркни",
+        "optional_phrase": "выбери, сделай, выбрать, поставить, измени, изменить, сделать"
+      },
+      {
+        "id": "303",
+        "name": "Зачеркнутый",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({Z})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "1000",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({4})",
+            "description": ""
+          }
+        ],
+        "phrase": "зачеркнутый, зачеркни, на зачеркнутый, зачеркнутым, стандартный, обычный",
+        "optional_phrase": "выбери, сделай, выбрать, поставить, измени, изменить, сделать, верни, верни на"
+      },
+      {
+        "id": "306",
+        "name": "Разместить параграф по центру",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({E})",
+            "description": ""
+          }
+        ],
+        "phrase": "по центру, на центр, на центре",
+        "optional_phrase": "выровняй, размести, сделай, выровнять, разместить, сделать"
+      },
+      {
+        "id": "285",
+        "name": "Разместить параграф произвольно",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({J})",
+            "description": ""
+          }
+        ],
+        "phrase": "произвольно, сплошным, по ширине",
+        "optional_phrase": "выровняй, размести, сделай, выровнять, разместить, сделать"
+      },
+      {
+        "id": "304",
+        "name": "Разместить параграф по правому краю",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({R})",
+            "description": ""
+          }
+        ],
+        "phrase": "по правому краю, по правому, направао, справа,",
+        "optional_phrase": "выровняй, размести, сделай, выровнять, разместить, сделать"
+      },
+      {
+        "id": "321",
+        "name": "Разместить параграф по левому краю",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LCONTROL}({L})",
+            "description": ""
+          }
+        ],
+        "phrase": "по левому краю, по левому, налево , слева",
+        "optional_phrase": "выровняй, размести, сделай, выровнять, разместить, сделать"
+      },
+      {
+        "id": "315",
+        "name": "Настройки шрифта",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Запрос выполнен сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({Z})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "500",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{A}",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "500",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{N}",
+            "description": ""
+          }
+        ],
+        "phrase": "Таблица шрифта, таблица шрифтов, таблицу шрифтов",
+        "optional_phrase": "выровняй, размести, сделай, выровнять, разместить, сделать"
+      },
+      {
+        "id": "317",
+        "name": "Настройки абзаца",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Загружаю сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LSHIFT}({Z})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "500",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LSHIFT}({P})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "500",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LSHIFT}({G})",
+            "description": ""
+          }
+        ],
+        "phrase": "Настройки абзаца, настрой абзац, параметры абзаца",
+        "optional_phrase": ""
+      },
+      {
+        "id": "299",
+        "name": "Добавить таблицу",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({C})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{W}",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{M}",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          }
+        ],
+        "phrase": "таблицу, таблица",
+        "optional_phrase": "создай, открой, сделай, добавь, внеси, внести, добавить"
+      },
+      {
+        "id": "314",
+        "name": "Добавить изображение",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Загружаю сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({C})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "500",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{E}",
+            "description": ""
+          }
+        ],
+        "phrase": "изображение, фото, картинку, фотографию, пикчу",
+        "optional_phrase": "Добавить, внести, добавь, внеси, открой, открыть"
+      },
+      {
+        "id": "286",
+        "name": "Фотоальбом",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Загружаю сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({C})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{F}",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{A}",
+            "description": ""
+          }
+        ],
+        "phrase": "Фотоальбом",
+        "optional_phrase": "создай, создать, открой, открыть, добавь, добавить"
+      },
+      {
+        "id": "305",
+        "name": "Надпись ( в отдельном объекте)",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({C})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{B}",
+            "description": ""
+          }
+        ],
+        "phrase": "надпись, напиши отдельно, добавь надпись, добавить надпись",
+        "optional_phrase": ""
+      },
+      {
+        "id": "288",
+        "name": "Декорированная надпись",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Загружаю сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({C})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{J}",
+            "description": ""
+          }
+        ],
+        "phrase": "красивую надпись, декорированную надпись, красивая надпись",
+        "optional_phrase": "сделай, сделать, добавь, добавить"
+      },
+      {
+        "id": "322",
+        "name": "Дата и время",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр(второй).wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({C})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{D}",
+            "description": ""
+          }
+        ],
+        "phrase": "дату, время, дату и время, событие датой, событие временем",
+        "optional_phrase": "добавь, внеси, отметь, сделай, сделать, добавить, внести"
+      },
+      {
+        "id": "316",
+        "name": "Параметры страниц",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр(второй).wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({Q})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{S}",
+            "description": ""
+          }
+        ],
+        "phrase": "параметры страницы, параметры страниц",
+        "optional_phrase": "открой, включи, выведи, измени, добавь, сделай, открыть, включить, вывести, изменить, добавить, сделать"
+      },
+      {
+        "id": "331",
+        "name": "Ориентация слайда",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({Q})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{Z}",
+            "description": ""
+          }
+        ],
+        "phrase": "Ориентацию слайдов, ориентацию слайда, ориентация слайдов",
+        "optional_phrase": "открой, включи, выведи, измени, добавь, сделай, открыть, включить, вывести, изменить, добавить, сделать"
+      },
+      {
+        "id": "327",
+        "name": "Темы",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Запрос выполнен сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({Q})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{H}",
+            "description": ""
+          }
+        ],
+        "phrase": "тему, темы, список тем",
+        "optional_phrase": "смени, открой, добавь, измени, сделай, вынеси, сменить, открыть, добавить, изменить, сделать, вынести"
+      },
+      {
+        "id": "324",
+        "name": "Темы (загрузить с пк)",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Загружаю сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({Q})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{H}",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{G}",
+            "description": ""
+          }
+        ],
+        "phrase": "тему с пэка, тему с диска, темы с пэка, темы с диска",
+        "optional_phrase": "загрузи, загрузить"
+      },
+      {
+        "id": "329",
+        "name": "Сохрвнить текущую тему",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Вы создали новый элемент.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({Q})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{H}",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{C}",
+            "description": ""
+          }
+        ],
+        "phrase": "тему, текущую тему",
+        "optional_phrase": "сохрани, сохранить"
+      },
+      {
+        "id": "332",
+        "name": "(отдельно) Цвет темы",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\К вашим услугам сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({Q})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{T}",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{F}",
+            "description": ""
+          }
+        ],
+        "phrase": "цвет темы, цвета темы",
+        "optional_phrase": "выбери, найди, поставь, открой, сделай, открой, выбрать, поставить, открыть, создай, создать, измени, изменить"
+      },
+      {
+        "id": "319",
+        "name": "(отдельно) Шрифт темы",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Запрос выполнен сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({Q})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{T}",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{A}",
+            "description": ""
+          }
+        ],
+        "phrase": "шрифт темы, шрифты темы",
+        "optional_phrase": "выбери, найди, поставь, открой, сделай, открой, выбрать, поставить, открыть, создай, создать, измени, изменить"
+      },
+      {
+        "id": "335",
+        "name": "(отдельно) Стиль фона",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр(второй).wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({Q})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{F}",
+            "description": ""
+          }
+        ],
+        "phrase": "стиль фона, фон, стили фона, стили фонов, стиль для фона, стили для фонов",
+        "optional_phrase": "выбери, найди, поставь, открой, сделай, открой, выбрать, поставить, открыть, создай, создать, измени, изменить"
+      },
+      {
+        "id": "323",
+        "name": "Схема перехода слайда",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({B})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{T}",
+            "description": ""
+          }
+        ],
+        "phrase": "переход слайдов, переход слайда, схема перехода, схема перехода слайдов",
+        "optional_phrase": "выбери, найди, поставь, открой, сделай, открой, выбрать, поставить, открыть, создай, создать, измени, изменить"
+      },
+      {
+        "id": "354",
+        "name": "Звук перехода слайда",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({B})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{D}",
+            "description": ""
+          }
+        ],
+        "phrase": "звук слайдов, звук слайда, звук перехода, звук перехода слайда",
+        "optional_phrase": "выбери, найди, поставь, открой, сделай, открой, выбрать, поставить, открыть, создай, создать, измени, изменить"
+      },
+      {
+        "id": "333",
+        "name": "Скорость перехода слайда",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Загружаю сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({B})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{G}",
+            "description": ""
+          }
+        ],
+        "phrase": "скорость перехода, скорость перехода слайда",
+        "optional_phrase": "выбери, найди, поставь, открой, сделай, открой, выбрать, поставить, открыть, создай, создать, измени, изменить"
+      },
+      {
+        "id": "334",
+        "name": "Просмотреть анимацию слайдов",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Есть.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({B})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{H}",
+            "description": ""
+          }
+        ],
+        "phrase": "просмотр, анимацию, анимаций",
+        "optional_phrase": "покажи, просмотр"
+      },
+      {
+        "id": "343",
+        "name": "Применить параметры переходов ко всем слайдам",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Запрос выполнен сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({B})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{N}",
+            "description": ""
+          }
+        ],
+        "phrase": "параметры переходов ко всем слайдам, параметры переходов на все слайды, ко всем слайдам, на все слайды",
+        "optional_phrase": "применить, перенести, сохранить"
+      },
+      {
+        "id": "328",
+        "name": "убрать\\скрыть линейку",
+        "location": "Jarvis/PowerPoint",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр(второй).wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{LALT}({J})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{>}({2})",
+            "description": ""
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{R}",
+            "description": ""
+          }
+        ],
+        "phrase": "линейку, линейка",
+        "optional_phrase": "сделай, сделать, добавь, добавить, скрыть, убрать, убери, скрой"
+      }
+    ],
+    "Jarvis/Управление Ютубом": [
+      {
+        "id": "406",
+        "name": "Остановка/ воспроизведение видео",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр(второй).wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{K}",
+            "description": ""
+          }
+        ],
+        "phrase": "пауза, стоп, продолжи, плэй, поставь на паузу, продолжить, продолжай, можешь продолжать, я скоро вернусь, я сейчас, подожди секундку",
+        "optional_phrase": ""
+      },
+      {
+        "id": "424",
+        "name": "Перемотать вперед ( на 10 сек)",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{L}",
+            "description": ""
+          }
+        ],
+        "phrase": "перемотка, перемотай, перемотать, дальше, вперёд, вправо",
+        "optional_phrase": ""
+      },
+      {
+        "id": "419",
+        "name": "Перемотать видео (на 10 сек назад)",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{J}",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\К вашим услугам сэр.wav",
+            "description": ""
+          }
+        ],
+        "phrase": "отмотка, отмотай, отмотать, обратно, влево",
+        "optional_phrase": ""
+      },
+      {
+        "id": "420",
+        "name": "Следующее видео",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{shift+N}",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Запрос выполнен сэр.wav",
+            "description": ""
+          }
+        ],
+        "phrase": "следующее видео, некст видос, следующий видос, некст видео",
+        "optional_phrase": "включи, включить, перелестни, перелестнуть, перейди на, вруби, активируй, выведи"
+      },
+      {
+        "id": "425",
+        "name": "Предыдущее видео",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{shift+P}",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Запрос выполнен сэр.wav",
+            "description": ""
+          }
+        ],
+        "phrase": "Предыдущее видео, предыдущий видос",
+        "optional_phrase": "включи, включить, перелестни, перелестнуть, перейди на, вруби, активируй, выведи"
+      },
+      {
+        "id": "426",
+        "name": "Перемотать на начало видео",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{0}",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Загружаю сэр.wav",
+            "description": ""
+          }
+        ],
+        "phrase": "в начало, начало видео, начало, сначала, в начало",
+        "optional_phrase": "включи, включить, перелестни, перелестнуть, перейди на, вруби, выведи, запусти,"
+      },
+      {
+        "id": "423",
+        "name": "Перемотать на 10% видео",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{1}",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\К вашим услугам сэр.wav",
+            "description": ""
+          }
+        ],
+        "phrase": "десять процентов",
+        "optional_phrase": "включи, включить, перелестни на, перелестнуть на, перейти на, перейди на, запусти на, вруби на, врубить на"
+      },
+      {
+        "id": "428",
+        "name": "Перемотать на 20% видео",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{2}",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр(второй).wav",
+            "description": ""
+          }
+        ],
+        "phrase": "двадцать процентов",
+        "optional_phrase": "включи, включить, перелестни на, перелестнуть на, перейти на, перейди на, запусти на, вруби на, врубить на"
+      },
+      {
+        "id": "414",
+        "name": "Перемотать на 30% видео",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{3}",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\К вашим услугам сэр.wav",
+            "description": ""
+          }
+        ],
+        "phrase": "тридцать процентов",
+        "optional_phrase": "включи, включить, перелестни на, перелестнуть на, перейти на, перейди на, запусти на, вруби на, врубить на"
+      },
+      {
+        "id": "430",
+        "name": "Перемотать на 40% видео",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{4}",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Загружаю сэр.wav",
+            "description": ""
+          }
+        ],
+        "phrase": "сорок процентов",
+        "optional_phrase": "включи, включить, перелестни на, перелестнуть на, перейти на, перейди на, запусти на, вруби на, врубить на"
+      },
+      {
+        "id": "427",
+        "name": "Перемотать на 50% видео",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{5}",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Запрос выполнен сэр.wav",
+            "description": ""
+          }
+        ],
+        "phrase": "половина, пятьдесят процентов",
+        "optional_phrase": "включи, включить, перелестни на, перелестнуть на, перейти на, перейди на, запусти на, вруби на, врубить на, вруби на, врубить на"
+      },
+      {
+        "id": "402",
+        "name": "Перемотать на 60% видео",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{6}",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр(второй).wav",
+            "description": ""
+          }
+        ],
+        "phrase": "шестьдесят процентов",
+        "optional_phrase": "включи, включить, перелестни на, перелестнуть на, перейти на, перейди на, запусти на, вруби на, врубить на"
+      },
+      {
+        "id": "429",
+        "name": "Перемотать на 70% видео",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{7}",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\К вашим услугам сэр.wav",
+            "description": ""
+          }
+        ],
+        "phrase": "семьдесят процентов",
+        "optional_phrase": "включи, включить, перелестни на, перелестнуть на, перейти на, перейди на, запусти на, вруби на, врубить на"
+      },
+      {
+        "id": "434",
+        "name": "Перемотать на 80% видео",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{8}",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\К вашим услугам сэр.wav",
+            "description": ""
+          }
+        ],
+        "phrase": "восемьдесят процентов",
+        "optional_phrase": "включи, включить, перелестни на, перелестнуть на, перейти на, перейди на, запусти на, вруби на, врубить на"
+      },
+      {
+        "id": "431",
+        "name": "Перемотать на 90% видео",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{9}",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Загружаю сэр.wav",
+            "description": ""
+          }
+        ],
+        "phrase": "концовка, конец видео, девяносто процентов",
+        "optional_phrase": "включи, включить, перелестни на, перелестнуть на, перейти на, перейди на, запусти на, вруби на, врубить на"
+      },
+      {
+        "id": "447",
+        "name": "Полноэкранный режим",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{F}",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр(второй).wav",
+            "description": ""
+          }
+        ],
+        "phrase": "во весь экран, на весь экран, полный экран, экран, полноэкранный режим, полный экран, на полный экран, большой режим видео",
+        "optional_phrase": "включи, включить, вывести, выведи, открой, открыть, сделать, сделай, вруби, врубить, выруби, вырубить, выключи, выключить, убрать, убери, отменить, отмени"
+      },
+      {
+        "id": "442",
+        "name": "Субтитры",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{C}",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Запрос выполнен сэр.wav",
+            "description": ""
+          }
+        ],
+        "phrase": "субтитры",
+        "optional_phrase": "включи, включить, вывести, выведи, открой, открыть, сделать, сделай, вруби, врубить, выруби, вырубить, выключи, выключить, убрать, убери, отменить, отмени"
+      },
+      {
+        "id": "443",
+        "name": "2 режима просмотра видео",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{T}",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр.wav",
+            "description": ""
+          }
+        ],
+        "phrase": "другой режим, другой режим просмотра, режим просмотра, режим видео, другой режим видео, средний режим видео",
+        "optional_phrase": "включи, включить, вывести, выведи, открой, открыть, сделать, сделай, вруби, врубить, смени, сменить"
+      },
+      {
+        "id": "445",
+        "name": "Мини-проигрыватель",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{I}",
+            "description": ""
+          },
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Да сэр(второй).wav",
+            "description": ""
+          }
+        ],
+        "phrase": "минипроигрыватель, мини проигрыватель, маленький режим видео",
+        "optional_phrase": "включи, включить, вывести, выведи, открой, открыть, сделать, сделай, вруби, врубить, выруби, вырубить, выключи, выключить, убрать, убери, отменить, отмени, вернуть, верни"
+      },
+      {
+        "id": "446",
+        "name": "Звук",
+        "location": "Jarvis/Управление Ютубом",
+        "confirm": false,
+        "combination_mode": false,
+        "actions": [
+          {
+            "id": "sound_playstream",
+            "name": "Sound.PlayStream",
+            "value": "C:\\Program Files (x86)\\jarvis\\Vox jarvis\\Jarvis Sound Pack от Jarvis Desktop\\Загружаю сэр.wav",
+            "description": ""
+          },
+          {
+            "id": "inputkeys_send",
+            "name": "InputKeys.Send",
+            "value": "{M}",
+            "description": ""
+          }
+        ],
+        "phrase": "звук",
+        "optional_phrase": "включи, включить, сделать, сделай, вруби, врубить, выруби, вырубить, выключи, выключить, убрать, убери"
+      }
+    ]
+  },
+  "open_states": {
+    "Jarvis": true,
+    "Jarvis/Открытие сайтов": true,
+    "Jarvis/Управление системой": true,
+    "Jarvis/Протокололы": true,
+    "Jarvis/Общение": true,
+    "Jarvis/Управление Microsoft Word": true,
+    "Jarvis/PowerPoint": true,
+    "Jarvis/Управление Ютубом": true
+  },
+  "location_order": [
+    "Jarvis",
+    "Jarvis/Открытие сайтов",
+    "Jarvis/Управление системой",
+    "Jarvis/Протокололы",
+    "Jarvis/Общение",
+    "Jarvis/Управление Microsoft Word",
+    "Jarvis/PowerPoint",
+    "Jarvis/Управление Ютубом"
+  ],
+  "command_counter": 8,
+  "command_view_mode": "list",
+  "new_command_style": "style2"
+}

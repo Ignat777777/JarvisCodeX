@@ -1,0 +1,12 @@
+{
+  "telegram_id": "",
+  "openai_api_key": "",
+  "ai_account_email": "",
+  "ai_account_password": "",
+  "selected_voice": "jarvis_pack",
+  "recognition_model": "small",
+  "program_volume": 100,
+  "close_to_tray": true,
+  "always_on_top": false,
+  "autostart": false
+}

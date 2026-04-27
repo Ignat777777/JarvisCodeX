@@ -1,0 +1,15 @@
+PySide6
+pyserial
+vosk
+pyaudio
+pygame
+numpy
+torch
+openai
+pystray
+Pillow
+sounddevice
+edge-tts
+soundfile
+silero
+pyinstaller

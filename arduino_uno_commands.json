@@ -1,0 +1,679 @@
+﻿{
+  "version": 2,
+  "commands": {
+    "Arduino/РЎРІРµС‚": [
+      {
+        "id": "",
+        "name": "Р’РєР»СЋС‡РёС‚СЊ СЃРІРµС‚",
+        "location": "Arduino/РЎРІРµС‚",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_digital_write",
+            "name": "Arduino.Digital.Write",
+            "value": "pin=13;value=HIGH",
+            "description": "Р’РєР»СЋС‡РёС‚СЊ РІСЃС‚СЂРѕРµРЅРЅС‹Р№ СЃРІРµС‚РѕРґРёРѕРґ РЅР° РїРёРЅРµ 13"
+          }
+        ],
+        "phrase": "РІРєР»СЋС‡Рё СЃРІРµС‚, СЃРІРµС‚ РЅР°, Р·Р°Р¶РіРё СЃРІРµС‚",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, Р±СѓРґСЊ РґРѕР±СЂ"
+      },
+      {
+        "id": "",
+        "name": "Р’С‹РєР»СЋС‡РёС‚СЊ СЃРІРµС‚",
+        "location": "Arduino/РЎРІРµС‚",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_digital_write",
+            "name": "Arduino.Digital.Write",
+            "value": "pin=13;value=LOW",
+            "description": "Р’С‹РєР»СЋС‡РёС‚СЊ РІСЃС‚СЂРѕРµРЅРЅС‹Р№ СЃРІРµС‚РѕРґРёРѕРґ РЅР° РїРёРЅРµ 13"
+          }
+        ],
+        "phrase": "РІС‹РєР»СЋС‡Рё СЃРІРµС‚, СЃРІРµС‚ РІС‹РєР», РїРѕРіР°СЃРё СЃРІРµС‚",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, Р±СѓРґСЊ РґРѕР±СЂ"
+      },
+      {
+        "id": "",
+        "name": "РњРѕСЂРіРЅСѓС‚СЊ СЃРІРµС‚РѕРґРёРѕРґРѕРј",
+        "location": "Arduino/РЎРІРµС‚",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_digital_write",
+            "name": "Arduino.Digital.Write",
+            "value": "pin=13;value=HIGH",
+            "description": "Р’РєР»СЋС‡РёС‚СЊ СЃРІРµС‚РѕРґРёРѕРґ"
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "500",
+            "description": "РџР°СѓР·Р° 500РјСЃ"
+          },
+          {
+            "id": "arduino_digital_write",
+            "name": "Arduino.Digital.Write",
+            "value": "pin=13;value=LOW",
+            "description": "Р’С‹РєР»СЋС‡РёС‚СЊ СЃРІРµС‚РѕРґРёРѕРґ"
+          }
+        ],
+        "phrase": "РјРѕСЂРіРЅРё, РјРѕСЂРіРЅСѓС‚СЊ СЃРІРµС‚РѕРґРёРѕРґРѕРј, Р±Р»РёРї",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ"
+      },
+      {
+        "id": "",
+        "name": "BLINK:13,3 (5СЃ/1СЃ)",
+        "location": "Arduino/РЎРІРµС‚",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_blink",
+            "name": "Arduino.Blink",
+            "value": "pin=13;count=3;on=5000;off=1000",
+            "description": "3 РјРѕСЂРіР°РЅРёСЏ: 5 СЃРµРє РІРєР», 1 СЃРµРє РІС‹РєР»"
+          }
+        ],
+        "phrase": "Р±Р»РёРЅРє С‚СЂРё, РјРѕСЂРіРЅРё С‚СЂРё РґРѕР»РіРѕ, СЃРёРіРЅР°Р» 5 РЅР° 1",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ"
+      },
+      {
+        "id": "",
+        "name": "РЇСЂРєРѕСЃС‚СЊ 50%",
+        "location": "Arduino/РЎРІРµС‚",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_analog_write",
+            "name": "Arduino.Analog.Write",
+            "value": "pin=9;value=127",
+            "description": "РЈСЃС‚Р°РЅРѕРІРёС‚СЊ СЏСЂРєРѕСЃС‚СЊ СЃРІРµС‚РѕРґРёРѕРґР° 50% (PWM РїРёРЅ 9)"
+          }
+        ],
+        "phrase": "СЏСЂРєРѕСЃС‚СЊ РїСЏС‚СЊРґРµСЃСЏС‚, РїРѕР»РѕРІРёРЅР° СЏСЂРєРѕСЃС‚Рё, СЃСЂРµРґРЅРёР№ СЃРІРµС‚",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, РїРѕСЃС‚Р°РІСЊ"
+      },
+      {
+        "id": "",
+        "name": "РЇСЂРєРѕСЃС‚СЊ 100%",
+        "location": "Arduino/РЎРІРµС‚",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_analog_write",
+            "name": "Arduino.Analog.Write",
+            "value": "pin=9;value=255",
+            "description": "РЈСЃС‚Р°РЅРѕРІРёС‚СЊ СЏСЂРєРѕСЃС‚СЊ СЃРІРµС‚РѕРґРёРѕРґР° 100% (PWM РїРёРЅ 9)"
+          }
+        ],
+        "phrase": "СЏСЂРєРѕСЃС‚СЊ СЃС‚Рѕ, РїРѕР»РЅР°СЏ СЏСЂРєРѕСЃС‚СЊ, РјР°РєСЃРёРјСѓРј СЃРІРµС‚Р°",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, РїРѕСЃС‚Р°РІСЊ"
+      },
+      {
+        "id": "",
+        "name": "РЇСЂРєРѕСЃС‚СЊ 0%",
+        "location": "Arduino/РЎРІРµС‚",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_analog_write",
+            "name": "Arduino.Analog.Write",
+            "value": "pin=9;value=0",
+            "description": "Р’С‹РєР»СЋС‡РёС‚СЊ СЃРІРµС‚РѕРґРёРѕРґ (PWM РїРёРЅ 9)"
+          }
+        ],
+        "phrase": "СЏСЂРєРѕСЃС‚СЊ РЅРѕР»СЊ, РІС‹РєР»СЋС‡Рё СЏСЂРєРѕСЃС‚СЊ, РјРёРЅРёРјР°Р»СЊРЅС‹Р№ СЃРІРµС‚",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, РїРѕСЃС‚Р°РІСЊ"
+      }
+    ],
+    "Arduino/РљР°РЅР°Р»С‹": [
+      {
+        "id": "",
+        "name": "РљР°РЅР°Р» 1 BLINK:13,3",
+        "location": "Arduino/РљР°РЅР°Р»С‹",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_blink",
+            "name": "Arduino.Blink",
+            "value": "pin=13;count=3;on=5000;off=1000",
+            "description": "РљР°РЅР°Р» 1 (LED13): 3 РјРѕСЂРіР°РЅРёСЏ, 5СЃ РІРєР»/1СЃ РІС‹РєР»"
+          }
+        ],
+        "phrase": "РєР°РЅР°Р» 1 Р±Р»РёРЅРє, РїРµСЂРІС‹Р№ РєР°РЅР°Р» РјРѕСЂРіРЅРё, led13 СЃРёРіРЅР°Р»",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, JARVIS"
+      },
+      {
+        "id": "",
+        "name": "РљР°РЅР°Р» 2 BLINK:12,3",
+        "location": "Arduino/РљР°РЅР°Р»С‹",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_blink",
+            "name": "Arduino.Blink",
+            "value": "pin=12;count=3;on=5000;off=1000",
+            "description": "РљР°РЅР°Р» 2 (LED12): 3 РјРѕСЂРіР°РЅРёСЏ, 5СЃ РІРєР»/1СЃ РІС‹РєР»"
+          }
+        ],
+        "phrase": "РєР°РЅР°Р» 2 Р±Р»РёРЅРє, РІС‚РѕСЂРѕР№ РєР°РЅР°Р» РјРѕСЂРіРЅРё, led12 СЃРёРіРЅР°Р»",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, JARVIS"
+      },
+      {
+        "id": "",
+        "name": "РљР°РЅР°Р» 3 BLINK:11,3",
+        "location": "Arduino/РљР°РЅР°Р»С‹",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_blink",
+            "name": "Arduino.Blink",
+            "value": "pin=11;count=3;on=5000;off=1000",
+            "description": "РљР°РЅР°Р» 3 (LED11): 3 РјРѕСЂРіР°РЅРёСЏ, 5СЃ РІРєР»/1СЃ РІС‹РєР»"
+          }
+        ],
+        "phrase": "РєР°РЅР°Р» 3 Р±Р»РёРЅРє, С‚СЂРµС‚РёР№ РєР°РЅР°Р» РјРѕСЂРіРЅРё, led11 СЃРёРіРЅР°Р»",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, JARVIS"
+      },
+      {
+        "id": "",
+        "name": "РљР°РЅР°Р» 4 BLINK:10,3",
+        "location": "Arduino/РљР°РЅР°Р»С‹",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_blink",
+            "name": "Arduino.Blink",
+            "value": "pin=10;count=3;on=5000;off=1000",
+            "description": "РљР°РЅР°Р» 4 (LED10): 3 РјРѕСЂРіР°РЅРёСЏ, 5СЃ РІРєР»/1СЃ РІС‹РєР»"
+          }
+        ],
+        "phrase": "РєР°РЅР°Р» 4 Р±Р»РёРЅРє, С‡РµС‚РІРµСЂС‚С‹Р№ РєР°РЅР°Р» РјРѕСЂРіРЅРё, led10 СЃРёРіРЅР°Р»",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, JARVIS"
+      },
+      {
+        "id": "",
+        "name": "Р’СЃРµ РєР°РЅР°Р»С‹ BLINK",
+        "location": "Arduino/РљР°РЅР°Р»С‹",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_blink",
+            "name": "Arduino.Blink",
+            "value": "pin=13;count=2;on=5000;off=1000",
+            "description": "РљР°РЅР°Р» 1: 2 РјРѕСЂРіР°РЅРёСЏ"
+          },
+          {
+            "id": "arduino_blink",
+            "name": "Arduino.Blink",
+            "value": "pin=12;count=2;on=5000;off=1000",
+            "description": "РљР°РЅР°Р» 2: 2 РјРѕСЂРіР°РЅРёСЏ"
+          },
+          {
+            "id": "arduino_blink",
+            "name": "Arduino.Blink",
+            "value": "pin=11;count=2;on=5000;off=1000",
+            "description": "РљР°РЅР°Р» 3: 2 РјРѕСЂРіР°РЅРёСЏ"
+          },
+          {
+            "id": "arduino_blink",
+            "name": "Arduino.Blink",
+            "value": "pin=10;count=2;on=5000;off=1000",
+            "description": "РљР°РЅР°Р» 4: 2 РјРѕСЂРіР°РЅРёСЏ"
+          }
+        ],
+        "phrase": "РІСЃРµ РєР°РЅР°Р»С‹ Р±Р»РёРЅРє, РІСЃРµ led РјРѕСЂРіРЅРё, РјСѓР»СЊС‚Рё СЃРёРіРЅР°Р»",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, JARVIS"
+      }
+    ],
+    "Arduino/Р”Р°С‚С‡РёРєРё": [
+      {
+        "id": "",
+        "name": "РџСЂРѕС‡РёС‚Р°С‚СЊ С‚РµРјРїРµСЂР°С‚СѓСЂСѓ",
+        "location": "Arduino/Р”Р°С‚С‡РёРєРё",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_analog_read",
+            "name": "Arduino.Analog.Read",
+            "value": "pin=A0",
+            "description": "РЎС‡РёС‚Р°С‚СЊ Р·РЅР°С‡РµРЅРёРµ СЃ РґР°С‚С‡РёРєР° С‚РµРјРїРµСЂР°С‚СѓСЂС‹ РЅР° РїРёРЅРµ A0"
+          },
+          {
+            "id": "voice_say",
+            "name": "Voice.Say",
+            "value": "РўРµРјРїРµСЂР°С‚СѓСЂР° РїРѕР»СѓС‡РµРЅР°",
+            "description": "РћР·РІСѓС‡РёС‚СЊ СЂРµР·СѓР»СЊС‚Р°С‚"
+          }
+        ],
+        "phrase": "С‚РµРјРїРµСЂР°С‚СѓСЂР°, СѓР·РЅР°Р№ С‚РµРјРїРµСЂР°С‚СѓСЂСѓ, СЃРєРѕР»СЊРєРѕ РіСЂР°РґСѓСЃРѕРІ",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, РґР°С‚С‡РёРє"
+      },
+      {
+        "id": "",
+        "name": "РџСЂРѕС‡РёС‚Р°С‚СЊ РѕСЃРІРµС‰С‘РЅРЅРѕСЃС‚СЊ",
+        "location": "Arduino/Р”Р°С‚С‡РёРєРё",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_analog_read",
+            "name": "Arduino.Analog.Read",
+            "value": "pin=A1",
+            "description": "РЎС‡РёС‚Р°С‚СЊ Р·РЅР°С‡РµРЅРёРµ СЃ С„РѕС‚РѕСЂРµР·РёСЃС‚РѕСЂР° РЅР° РїРёРЅРµ A1"
+          },
+          {
+            "id": "voice_say",
+            "name": "Voice.Say",
+            "value": "РћСЃРІРµС‰С‘РЅРЅРѕСЃС‚СЊ РёР·РјРµСЂРµРЅР°",
+            "description": "РћР·РІСѓС‡РёС‚СЊ СЂРµР·СѓР»СЊС‚Р°С‚"
+          }
+        ],
+        "phrase": "РѕСЃРІРµС‰С‘РЅРЅРѕСЃС‚СЊ, СЃРІРµС‚ РґР°С‚С‡РёРє, СЃРєРѕР»СЊРєРѕ СЃРІРµС‚Р°",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, РґР°С‚С‡РёРє"
+      },
+      {
+        "id": "",
+        "name": "РџСЂРѕС‡РёС‚Р°С‚СЊ СЂР°СЃСЃС‚РѕСЏРЅРёРµ",
+        "location": "Arduino/Р”Р°С‚С‡РёРєРё",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_ultrasonic_read",
+            "name": "Arduino.Ultrasonic.Read",
+            "value": "trig=2;echo=3",
+            "description": "РЎС‡РёС‚Р°С‚СЊ СЂР°СЃСЃС‚РѕСЏРЅРёРµ СЃ HC-SR04 (trig=2, echo=3)"
+          },
+          {
+            "id": "voice_say",
+            "name": "Voice.Say",
+            "value": "Р Р°СЃСЃС‚РѕСЏРЅРёРµ РёР·РјРµСЂРµРЅРѕ",
+            "description": "РћР·РІСѓС‡РёС‚СЊ СЂРµР·СѓР»СЊС‚Р°С‚"
+          }
+        ],
+        "phrase": "СЂР°СЃСЃС‚РѕСЏРЅРёРµ, СЃРєРѕР»СЊРєРѕ СЃР°РЅС‚РёРјРµС‚СЂРѕРІ, РёР·РјРµСЂСЊ СЂР°СЃСЃС‚РѕСЏРЅРёРµ",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, РґР°С‚С‡РёРє"
+      }
+    ],
+    "Arduino/РњРѕС‚РѕСЂС‹": [
+      {
+        "id": "",
+        "name": "Р—Р°РїСѓСЃС‚РёС‚СЊ РјРѕС‚РѕСЂ",
+        "location": "Arduino/РњРѕС‚РѕСЂС‹",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_digital_write",
+            "name": "Arduino.Digital.Write",
+            "value": "pin=5;value=HIGH",
+            "description": "Р’РєР»СЋС‡РёС‚СЊ РјРѕС‚РѕСЂ С‡РµСЂРµР· С‚СЂР°РЅР·РёСЃС‚РѕСЂ РЅР° РїРёРЅРµ 5"
+          }
+        ],
+        "phrase": "Р·Р°РїСѓСЃС‚Рё РјРѕС‚РѕСЂ, РјРѕС‚РѕСЂ РІРїРµСЂС‘Рґ, РІРєР»СЋС‡Рё РґРІРёРіР°С‚РµР»СЊ",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ"
+      },
+      {
+        "id": "",
+        "name": "РћСЃС‚Р°РЅРѕРІРёС‚СЊ РјРѕС‚РѕСЂ",
+        "location": "Arduino/РњРѕС‚РѕСЂС‹",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_digital_write",
+            "name": "Arduino.Digital.Write",
+            "value": "pin=5;value=LOW",
+            "description": "Р’С‹РєР»СЋС‡РёС‚СЊ РјРѕС‚РѕСЂ РЅР° РїРёРЅРµ 5"
+          }
+        ],
+        "phrase": "РѕСЃС‚Р°РЅРѕРІРё РјРѕС‚РѕСЂ, СЃС‚РѕРї РјРѕС‚РѕСЂ, РІС‹РєР»СЋС‡Рё РґРІРёРіР°С‚РµР»СЊ",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ"
+      },
+      {
+        "id": "",
+        "name": "Р РµРІРµСЂСЃ РјРѕС‚РѕСЂР°",
+        "location": "Arduino/РњРѕС‚РѕСЂС‹",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_digital_write",
+            "name": "Arduino.Digital.Write",
+            "value": "pin=6;value=HIGH",
+            "description": "Р’РєР»СЋС‡РёС‚СЊ СЂРµРІРµСЂСЃ РјРѕС‚РѕСЂР° РЅР° РїРёРЅРµ 6"
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "1000",
+            "description": "РџР°СѓР·Р° 1 СЃРµРєСѓРЅРґР°"
+          },
+          {
+            "id": "arduino_digital_write",
+            "name": "Arduino.Digital.Write",
+            "value": "pin=6;value=LOW",
+            "description": "Р’С‹РєР»СЋС‡РёС‚СЊ СЂРµРІРµСЂСЃ"
+          }
+        ],
+        "phrase": "СЂРµРІРµСЂСЃ, РѕР±СЂР°С‚РЅС‹Р№ С…РѕРґ, РЅР°Р·Р°Рґ",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, РјРѕС‚РѕСЂ"
+      },
+      {
+        "id": "",
+        "name": "РџРѕРІРµСЂРЅСѓС‚СЊ СЃРµСЂРІРѕ 0",
+        "location": "Arduino/РњРѕС‚РѕСЂС‹",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_servo_write",
+            "name": "Arduino.Servo.Write",
+            "value": "pin=10;angle=0",
+            "description": "РџРѕРІРµСЂРЅСѓС‚СЊ СЃРµСЂРІРѕРїСЂРёРІРѕРґ РЅР° 0 РіСЂР°РґСѓСЃРѕРІ (РїРёРЅ 10)"
+          }
+        ],
+        "phrase": "СЃРµСЂРІРѕ РЅРѕР»СЊ, РєСЂР°Р№РЅРµРµ Р»РµРІРѕРµ, РЅР°С‡РЅРё РїРѕР»РѕР¶РµРЅРёРµ",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, РїРѕРІРµСЂРЅРё"
+      },
+      {
+        "id": "",
+        "name": "РџРѕРІРµСЂРЅСѓС‚СЊ СЃРµСЂРІРѕ 90",
+        "location": "Arduino/РњРѕС‚РѕСЂС‹",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_servo_write",
+            "name": "Arduino.Servo.Write",
+            "value": "pin=10;angle=90",
+            "description": "РџРѕРІРµСЂРЅСѓС‚СЊ СЃРµСЂРІРѕРїСЂРёРІРѕРґ РЅР° 90 РіСЂР°РґСѓСЃРѕРІ (РїРёРЅ 10)"
+          }
+        ],
+        "phrase": "СЃРµСЂРІРѕ РґРµРІСЏРЅРѕСЃС‚Рѕ, РїРѕСЃРµСЂРµРґРёРЅРµ, СЃСЂРµРґРЅРµРµ РїРѕР»РѕР¶РµРЅРёРµ",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, РїРѕРІРµСЂРЅРё"
+      },
+      {
+        "id": "",
+        "name": "РџРѕРІРµСЂРЅСѓС‚СЊ СЃРµСЂРІРѕ 180",
+        "location": "Arduino/РњРѕС‚РѕСЂС‹",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_servo_write",
+            "name": "Arduino.Servo.Write",
+            "value": "pin=10;angle=180",
+            "description": "РџРѕРІРµСЂРЅСѓС‚СЊ СЃРµСЂРІРѕРїСЂРёРІРѕРґ РЅР° 180 РіСЂР°РґСѓСЃРѕРІ (РїРёРЅ 10)"
+          }
+        ],
+        "phrase": "СЃРµСЂРІРѕ СЃС‚Рѕ РІРѕСЃРµРјСЊРґРµСЃСЏС‚, РєСЂР°Р№РЅРµРµ РїСЂР°РІРѕРµ, РјР°РєСЃРёРјСѓРј",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, РїРѕРІРµСЂРЅРё"
+      }
+    ],
+    "Arduino/РЎРёРіРЅР°Р»С‹": [
+      {
+        "id": "",
+        "name": "РЎРёРіРЅР°Р» С‚СЂРµРІРѕРіРё",
+        "location": "Arduino/РЎРёРіРЅР°Р»С‹",
+        "confirm": true,
+        "actions": [
+          {
+            "id": "arduino_tone_play",
+            "name": "Arduino.Tone.Play",
+            "value": "pin=8;frequency=1000;duration=500",
+            "description": "Р’РєР»СЋС‡РёС‚СЊ Р·РІСѓРє 1000Р“С† РЅР° РїРёРЅРµ 8 (500РјСЃ)"
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "200",
+            "description": "РџР°СѓР·Р° 200РјСЃ"
+          },
+          {
+            "id": "arduino_tone_play",
+            "name": "Arduino.Tone.Play",
+            "value": "pin=8;frequency=1000;duration=500",
+            "description": "Р’РєР»СЋС‡РёС‚СЊ Р·РІСѓРє 1000Р“С† РЅР° РїРёРЅРµ 8 (500РјСЃ)"
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "200",
+            "description": "РџР°СѓР·Р° 200РјСЃ"
+          },
+          {
+            "id": "arduino_tone_play",
+            "name": "Arduino.Tone.Play",
+            "value": "pin=8;frequency=1000;duration=500",
+            "description": "Р’РєР»СЋС‡РёС‚СЊ Р·РІСѓРє 1000Р“С† РЅР° РїРёРЅРµ 8 (500РјСЃ)"
+          }
+        ],
+        "phrase": "С‚СЂРµРІРѕРіР°, СЃРёСЂРµРЅР°, СЃРёРіРЅР°Р» С‚СЂРµРІРѕРіРё",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, РІРєР»СЋС‡Рё"
+      },
+      {
+        "id": "",
+        "name": "РЎС‚РѕРї Р·РІСѓРє",
+        "location": "Arduino/РЎРёРіРЅР°Р»С‹",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_tone_stop",
+            "name": "Arduino.Tone.Stop",
+            "value": "pin=8",
+            "description": "РћСЃС‚Р°РЅРѕРІРёС‚СЊ Р·РІСѓРє РЅР° РїРёРЅРµ 8"
+          }
+        ],
+        "phrase": "СЃС‚РѕРї Р·РІСѓРє, РІС‹РєР»СЋС‡Рё Р·РІСѓРє, РѕС‚Р±РѕР№ С‚СЂРµРІРѕРіРё",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ"
+      },
+      {
+        "id": "",
+        "name": "РњРѕСЂРіРЅСѓС‚СЊ 3 СЂР°Р·Р°",
+        "location": "Arduino/РЎРёРіРЅР°Р»С‹",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "arduino_digital_write",
+            "name": "Arduino.Digital.Write",
+            "value": "pin=13;value=HIGH",
+            "description": "Р’РєР»СЋС‡РёС‚СЊ СЃРІРµС‚РѕРґРёРѕРґ"
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": "РџР°СѓР·Р° 300РјСЃ"
+          },
+          {
+            "id": "arduino_digital_write",
+            "name": "Arduino.Digital.Write",
+            "value": "pin=13;value=LOW",
+            "description": "Р’С‹РєР»СЋС‡РёС‚СЊ СЃРІРµС‚РѕРґРёРѕРґ"
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": "РџР°СѓР·Р° 300РјСЃ"
+          },
+          {
+            "id": "arduino_digital_write",
+            "name": "Arduino.Digital.Write",
+            "value": "pin=13;value=HIGH",
+            "description": "Р’РєР»СЋС‡РёС‚СЊ СЃРІРµС‚РѕРґРёРѕРґ"
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": "РџР°СѓР·Р° 300РјСЃ"
+          },
+          {
+            "id": "arduino_digital_write",
+            "name": "Arduino.Digital.Write",
+            "value": "pin=13;value=LOW",
+            "description": "Р’С‹РєР»СЋС‡РёС‚СЊ СЃРІРµС‚РѕРґРёРѕРґ"
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": "РџР°СѓР·Р° 300РјСЃ"
+          },
+          {
+            "id": "arduino_digital_write",
+            "name": "Arduino.Digital.Write",
+            "value": "pin=13;value=HIGH",
+            "description": "Р’РєР»СЋС‡РёС‚СЊ СЃРІРµС‚РѕРґРёРѕРґ"
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "300",
+            "description": "РџР°СѓР·Р° 300РјСЃ"
+          },
+          {
+            "id": "arduino_digital_write",
+            "name": "Arduino.Digital.Write",
+            "value": "pin=13;value=LOW",
+            "description": "Р’С‹РєР»СЋС‡РёС‚СЊ СЃРІРµС‚РѕРґРёРѕРґ"
+          }
+        ],
+        "phrase": "РјРѕСЂРіРЅРё С‚СЂРё СЂР°Р·Р°, СЃРёРіРЅР°Р» С‚СЂРё, СЃРѕС„",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ"
+      }
+    ],
+    "Arduino/РџСЂРѕС‚РѕРєРѕР»С‹": [
+      {
+        "id": "",
+        "name": "РџСЂРѕС‚РѕРєРѕР» РЎС‚Р°СЂС‚",
+        "location": "Arduino/РџСЂРѕС‚РѕРєРѕР»С‹",
+        "confirm": true,
+        "actions": [
+          {
+            "id": "voice_say",
+            "name": "Voice.Say",
+            "value": "Р—Р°РїСѓСЃРєР°СЋ РїСЂРѕС‚РѕРєРѕР» РёРЅРёС†РёР°Р»РёР·Р°С†РёРё",
+            "description": "РћР·РІСѓС‡РёС‚СЊ РЅР°С‡Р°Р»Рѕ РїСЂРѕС‚РѕРєРѕР»Р°"
+          },
+          {
+            "id": "arduino_digital_write",
+            "name": "Arduino.Digital.Write",
+            "value": "pin=13;value=HIGH",
+            "description": "РРЅРґРёРєР°С‚РѕСЂ Р°РєС‚РёРІРЅРѕСЃС‚Рё"
+          },
+          {
+            "id": "arduino_analog_read",
+            "name": "Arduino.Analog.Read",
+            "value": "pin=A0",
+            "description": "РЎС‡РёС‚Р°С‚СЊ РґР°С‚С‡РёРє С‚РµРјРїРµСЂР°С‚СѓСЂС‹"
+          },
+          {
+            "id": "arduino_analog_read",
+            "name": "Arduino.Analog.Read",
+            "value": "pin=A1",
+            "description": "РЎС‡РёС‚Р°С‚СЊ РґР°С‚С‡РёРє РѕСЃРІРµС‰С‘РЅРЅРѕСЃС‚Рё"
+          },
+          {
+            "id": "arduino_ultrasonic_read",
+            "name": "Arduino.Ultrasonic.Read",
+            "value": "trig=2;echo=3",
+            "description": "РЎС‡РёС‚Р°С‚СЊ СЂР°СЃСЃС‚РѕСЏРЅРёРµ"
+          },
+          {
+            "id": "voice_say",
+            "name": "Voice.Say",
+            "value": "РџСЂРѕС‚РѕРєРѕР» Р·Р°РІРµСЂС€С‘РЅ",
+            "description": "РћР·РІСѓС‡РёС‚СЊ Р·Р°РІРµСЂС€РµРЅРёРµ"
+          },
+          {
+            "id": "arduino_digital_write",
+            "name": "Arduino.Digital.Write",
+            "value": "pin=13;value=LOW",
+            "description": "Р’С‹РєР»СЋС‡РёС‚СЊ РёРЅРґРёРєР°С‚РѕСЂ"
+          }
+        ],
+        "phrase": "РїСЂРѕС‚РѕРєРѕР» СЃС‚Р°СЂС‚, РёРЅРёС†РёР°Р»РёР·Р°С†РёСЏ, РїРѕР»РЅС‹Р№ С†РёРєР»",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, Р·Р°РїСѓСЃС‚Рё"
+      },
+      {
+        "id": "",
+        "name": "РџСЂРѕС‚РѕРєРѕР» РўРµСЃС‚",
+        "location": "Arduino/РџСЂРѕС‚РѕРєРѕР»С‹",
+        "confirm": false,
+        "actions": [
+          {
+            "id": "voice_say",
+            "name": "Voice.Say",
+            "value": "РќР°С‡РёРЅР°СЋ С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ СЃРёСЃС‚РµРј",
+            "description": "РћР·РІСѓС‡РёС‚СЊ РЅР°С‡Р°Р»Рѕ С‚РµСЃС‚Р°"
+          },
+          {
+            "id": "arduino_servo_write",
+            "name": "Arduino.Servo.Write",
+            "value": "pin=10;angle=0",
+            "description": "РЎРµСЂРІРѕ РІ 0"
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "1000",
+            "description": "РџР°СѓР·Р° 1 СЃРµРєСѓРЅРґР°"
+          },
+          {
+            "id": "arduino_servo_write",
+            "name": "Arduino.Servo.Write",
+            "value": "pin=10;angle=90",
+            "description": "РЎРµСЂРІРѕ РІ 90"
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "1000",
+            "description": "РџР°СѓР·Р° 1 СЃРµРєСѓРЅРґР°"
+          },
+          {
+            "id": "arduino_servo_write",
+            "name": "Arduino.Servo.Write",
+            "value": "pin=10;angle=180",
+            "description": "РЎРµСЂРІРѕ РІ 180"
+          },
+          {
+            "id": "vc_pause",
+            "name": "VC.Pause",
+            "value": "1000",
+            "description": "РџР°СѓР·Р° 1 СЃРµРєСѓРЅРґР°"
+          },
+          {
+            "id": "arduino_servo_write",
+            "name": "Arduino.Servo.Write",
+            "value": "pin=10;angle=90",
+            "description": "РЎРµСЂРІРѕ РІ С†РµРЅС‚СЂ"
+          },
+          {
+            "id": "voice_say",
+            "name": "Voice.Say",
+            "value": "РўРµСЃС‚ СЃРµСЂРІРѕРїСЂРёРІРѕРґР° Р·Р°РІРµСЂС€С‘РЅ",
+            "description": "РћР·РІСѓС‡РёС‚СЊ Р·Р°РІРµСЂС€РµРЅРёРµ"
+          }
+        ],
+        "phrase": "РїСЂРѕС‚РѕРєРѕР» С‚РµСЃС‚, С‚РµСЃС‚ СЃРёСЃС‚РµРј, РїСЂРѕРІРµСЂРєР°",
+        "optional_phrase": "arduino, Р°СЂРґСѓРёРЅРѕ, Р·Р°РїСѓСЃС‚Рё"
+      }
+    ]
+  },
+  "open_states": {
+    "Arduino/РЎРІРµС‚": true,
+    "Arduino/РљР°РЅР°Р»С‹": true,
+    "Arduino/Р”Р°С‚С‡РёРєРё": true,
+    "Arduino/РњРѕС‚РѕСЂС‹": true,
+    "Arduino/РЎРёРіРЅР°Р»С‹": true,
+    "Arduino/РџСЂРѕС‚РѕРєРѕР»С‹": true
+  },
+  "location_order": [
+    "Arduino/РЎРІРµС‚",
+    "Arduino/РљР°РЅР°Р»С‹",
+    "Arduino/Р”Р°С‚С‡РёРєРё",
+    "Arduino/РњРѕС‚РѕСЂС‹",
+    "Arduino/РЎРёРіРЅР°Р»С‹",
+    "Arduino/РџСЂРѕС‚РѕРєРѕР»С‹"
+  ],
+  "command_counter": 100
+}
+
