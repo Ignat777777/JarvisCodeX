@@ -1,0 +1,19 @@
+﻿{
+  "modes": [
+    {
+      "id": "blink test",
+      "title": "Blink test",
+      "file": "blink_test/blink_test.ino",
+      "hex": "blink_test/blink_test.hex",
+      "aliases": ["тест мигания", "мигалка", "blink"]
+    },
+    {
+      "id": "servo hand",
+      "title": "Servo hand",
+      "file": "servo_hand/servo_hand.ino",
+      "hex": "servo_hand/servo_hand.hex",
+      "trigger": "reset",
+      "aliases": ["серва рука", "серво рука", "servo"]
+    }
+  ]
+}
